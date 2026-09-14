@@ -1,0 +1,15 @@
+# ALLOWLIST, NOT A BLOCKLIST.
+#
+# Everything is ignored by default and the four public files are named back
+# in. A blocklist has to anticipate every engine file that might be copied
+# here, and the first version of this one listed twenty-five of them by name
+# — which told a reader the engine's module layout while trying to protect
+# it. Naming what is public leaks nothing; naming what is private leaks the
+# shape of it.
+*
+!.gitignore
+!README.md
+!RECEIPTS_API.md
+!LICENSE
+!DATA-LICENSE.md
+!verify_ledger.py
